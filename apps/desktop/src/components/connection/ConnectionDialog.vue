@@ -11064,7 +11064,7 @@ function openExternalUrl(url: string) {
 .connection-dialog-content {
   display: flex;
   flex-direction: column;
-  height: min(720px, calc(var(--dbx-viewport-height) - 2rem));
+  height: min(800px, calc(var(--dbx-viewport-height) - 2rem));
   overflow: hidden;
 }
 
