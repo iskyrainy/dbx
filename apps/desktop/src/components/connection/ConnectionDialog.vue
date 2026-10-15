@@ -11065,6 +11065,8 @@ function openExternalUrl(url: string) {
   display: flex;
   flex-direction: column;
   height: min(800px, calc(var(--dbx-viewport-height) - 2rem));
+  /* legacy WebViews without dvh support clamp through the viewport variable */
+  max-height: calc(var(--dbx-viewport-height) - 2rem);
   overflow: hidden;
 }
 
